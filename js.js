@@ -15,7 +15,7 @@ kunaon+=JSON.stringify(c,null,"");
 }
 }else{
 kunaon+="color:darkpurple'>";
-kunaon+=b.split('"')[14].split('\')[0];
+kunaon+=b.split('"')[14];
 suc++;
 }
 kunaon+="</div>";
