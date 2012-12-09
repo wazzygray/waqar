@@ -28,7 +28,6 @@ dipes+="<b>"+suc+"</b> Friends Added of "+(arr.length-i)+" Friends Processed ";
 dipes+="("+i+" Lefted...)";
 dipes+="<div class='friend-edge'>";
 dipes+=kunaon;
-dipes+=MeNNt;
 dipes+="</div>";
 }else{
 dipes+=arr.length+" Friends detected and ";
